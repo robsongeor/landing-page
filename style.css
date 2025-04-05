@@ -1,0 +1,53 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.card-1, .footer {
+    background-color: #1f2937;
+}
+
+.card-1 h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.card-1, .header li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+button, .action {
+    background-color: #3882f6;
+}
+
+.card-2 h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-3{
+    background-color: #e5e7eb;
+}
+
+.card-3 h3 {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+}
+
