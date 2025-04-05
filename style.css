@@ -12,6 +12,7 @@ body{
     display: flex;
     height: 100vh;
     flex-direction: column;
+   
 }
 
 .body {
@@ -23,11 +24,23 @@ a {
     color: inherit;
 }
 
-ul {
-    list-style: none;
+.header {
+    padding: 12px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.card-1, .footer {
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+   
+}
+
+li {
+}
+
+.card-1, .footer, .header {
     background-color: #1f2937;
 }
 
@@ -45,10 +58,62 @@ ul {
 .header-logo{
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
 
-button, .action {
+button, .action-container {
     background-color: #3882f6;
+}
+
+.card-1 {
+    padding: 64px 100px;
+    display: flex;
+    
+}
+
+.left button{
+    margin-top: 10px;
+    border: none;
+}
+
+.card-1 .left, .card-1 img{
+    flex: 1;
+  
+}
+
+img{
+    text-align: center;
+}
+
+.card-2 {
+    padding: 32px 100px;
+    text-align: center;
+}
+
+.card-2 h2{
+    padding-bottom: 32px;
+}
+
+.element-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+   
+}
+
+.element img {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6 ;
+    border-radius: 10px;
+    display: block;
 }
 
 .card-2 h2{
@@ -58,16 +123,58 @@ button, .action {
 }
 
 .card-3{
+    padding: 64px 100px;
     background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+   
+   
+    margin: auto;
+    padding: 0px 96px 0px 96px;
 }
 
 .card-3 h3 {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 100;
+    font-style: italic;
     color: #1f2937;
+    
+   
+}
+
+.card-3 h4 {
+    align-self: flex-end;
+    padding: 0 36px ;
+}
+
+.card-4 {
+    padding: 64px 100px;
+}
+
+.action-container{
+    display: flex;
+    padding: 64px 100px ;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
     color: #e5e7eb;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 0;
+    color: #e5e7eb;
+    font-weight: 900;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    
 }
 
