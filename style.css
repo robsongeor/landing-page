@@ -25,7 +25,7 @@ a {
 }
 
 .header {
-    padding: 12px 100px;
+    padding: 12px 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -66,9 +66,12 @@ button, .action-container {
 }
 
 .card-1 {
-    padding: 64px 100px;
+    padding: 64px 200px;
     display: flex;
-    
+}
+
+.card-1 img {
+    background-color: grey;
 }
 
 .left button{
@@ -83,10 +86,11 @@ button, .action-container {
 
 img{
     text-align: center;
+    
 }
 
 .card-2 {
-    padding: 32px 100px;
+    padding: 32px 200px;
     text-align: center;
 }
 
@@ -97,14 +101,14 @@ img{
 .element-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 36px;
+    gap: 42px;
     justify-content: center;
 }
 
 .element {
     display: flex;
     flex-direction: column;
-    width: 120px;
+    width: 140px;
    
 }
 
@@ -114,6 +118,7 @@ img{
     border: 3px solid #3882f6 ;
     border-radius: 10px;
     display: block;
+    
 }
 
 .card-2 h2{
@@ -123,7 +128,7 @@ img{
 }
 
 .card-3{
-    padding: 64px 100px;
+    padding: 64px 200px;
     background-color: #e5e7eb;
 }
 
@@ -151,7 +156,8 @@ img{
 }
 
 .card-4 {
-    padding: 64px 100px;
+    padding: 64px 200px;
+    
 }
 
 .action-container{
@@ -160,6 +166,8 @@ img{
     color: #e5e7eb;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
+    
 }
 
 .footer {
